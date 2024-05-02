@@ -62,4 +62,55 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="categorias\aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\drama.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\Ficcao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\infantil.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\suspense.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\terror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="categorias\acao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	  <None Update="categorias\aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	  <None Update="categorias\drama.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	  <None Update="categorias\Ficcao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	  <None Update="categorias\infantil.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	  <None Update="categorias\suspense.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	  <None Update="categorias\terror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	  <None Update="NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	</ItemGroup>
+
 </Project>
